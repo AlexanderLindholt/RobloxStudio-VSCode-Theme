@@ -13,6 +13,7 @@
       "foreground": "#cccccc"
     }
   },
+  "editor.background": "#ffffff"
   "tokenColors": [
     {
       "name": "unison punctuation",
