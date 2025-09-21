@@ -32,12 +32,12 @@
 			"settings": {"foreground": "#6A6F81"}
 		},
 		{
-			"scope": ["keyword.control", "keyword.other", "storage.type", "storage.modifier"],
-			"settings": {"foreground": "#EB7973"}
+			"scope": ["variable.parameter.luau"],
+			"settings": {"foreground": "#BCBEC8"}
 		},
 		{
-			"scope": "keyword.operator",
-			"settings": {"foreground": "#A29BFE"}
+			"scope": ["keyword.control", "keyword.other", "storage.type", "storage.modifier", "keyword.operator.logical.lua", "keyword.operator.wordlike.luau"],
+			"settings": {"foreground": "#EB7973"}
 		},
 		{
 			"scope": ["punctuation.separator", "punctuation.terminator", "punctuation.section", "punctuation.accessor"],
@@ -64,8 +64,8 @@
 			"settings": {"foreground": "#70A0FF"}
 		},
 		{
-			"scope": ["variable.parameter", "variable.language.self"],
-			"settings": {"foreground": "#FF9F7A", "fontStyle": "italic"}
+			"scope": ["variable.parameter", "variable.language.self", "variable.other.lua"],
+			"settings": {"foreground": "#EB7973", "fontStyle": "italic"}
 		},
 		{
 			"scope": ["support.class.roblox", "entity.name.type.roblox"],
