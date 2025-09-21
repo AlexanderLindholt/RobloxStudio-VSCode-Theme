@@ -1,76 +1,91 @@
 {
-    "name": "Roblox Studio",
-    "type": "dark",
-    "colors": {
-        "editor.background": "#202227",
-        "editor.foreground": "#BCBEC8",
-        "editorCursor.foreground": "#BCBEC8",
-        "editorLineNumber.foreground": "#494D5A",
-        "editor.selectionBackground": "#13235D",
-        "editor.selectionForeground": "#FFFFFF",
-        "editor.selectionHighlightBackground": "#494D5A",
-        "editor.findMatchBackground": "#976C00",
-        "editor.findMatchHighlightBackground": "#494D5A",
-        "editor.lineHighlightBackground": "#353741",
-        "editorWhitespace.foreground": "#494D5A",
-        "editorIndentGuide.background": "#2B2D33",
-        "editorIndentGuide.activeBackground": "#3A3C43",
-        "editorError.foreground": "#DF281F",
-        "editorWarning.foreground": "#F57630",
-        "editorInfo.foreground": "#494D5A",
-        "editorHint.foreground": "#335FFF",
-        "editorUnnecessaryCode.opacity": "0.5",
-        "sideBar.background": "#202227",
-        "activityBar.background": "#202227",
-        "statusBar.background": "#202227",
-        "titleBar.activeBackground": "#202227",
-        "titleBar.inactiveBackground": "#202227"
-    },
-
-    "tokenColors": [
-        {
-            "scope": ["comment","punctuation.definition.comment","comment.block.documentation"],
-            "settings": { "foreground": "#6A6F81", "fontStyle": "" }
-        },
-        {
-            "scope": ["keyword","storage.type","storage.modifier"],
-            "settings": { "foreground": "#EB7973" }
-        },
-        {
-            "scope": ["constant.language","constant.numeric","constant.other","constant.character","constant.character.escape","constant.regexp"],
-            "settings": { "foreground": "#F2BA2A" }
-        },
-        {
-            "scope": ["string","string.quoted","string.template","string.other"],
-            "settings": { "foreground": "#8EE9B6" }
-        },
-        {
-            "scope": ["variable","identifier"],
-            "settings": { "foreground": "#BCBEC8" }
-        },
-        {
-            "scope": ["entity.name.function","support.function","meta.function","variable.function"],
-            "settings": { "foreground": "#FAE4AA" }
-        },
-        {
-            "scope": ["support.function.builtin","support.type.builtin"],
-            "settings": { "foreground": "#8FB4FF" }
-        },
-        {
-            "scope": ["variable.property","meta.property.name","support.property"],
-            "settings": { "foreground": "#70A0FF" }
-        },
-        {
-            "scope": ["keyword.operator","keyword.control","punctuation.separator","punctuation.definition"],
-            "settings": { "foreground": "#BCBEC8" }
-        },
-        {
-            "scope": ["invalid","invalid.deprecated","invalid.illegal"],
-            "settings": { "foreground": "#DF281F" }
-        },
-        {
-            "scope": ["meta.toc-list.marker.todo","comment.block.todo","keyword.other.todo"],
-            "settings": { "foreground": "#F4FF78", "fontStyle": "bold" }
-        }
-    ]
+	"name": "Roblox Studio",
+	"type": "dark",
+	"colors": {
+		"editor.background": "#202227",
+		"editor.foreground": "#BCBEC8",
+		"editorCursor.foreground": "#BCBEC8",
+		"editorLineNumber.foreground": "#494D5A",
+		"editor.selectionBackground": "#13235D",
+		"editor.selectionForeground": "#FFFFFF",
+		"editor.selectionHighlightBackground": "#494D5A",
+		"editor.findMatchBackground": "#976C00",
+		"editor.findMatchHighlightBackground": "#494D5A",
+		"editor.lineHighlightBackground": "#353741",
+		"editorWhitespace.foreground": "#494D5A",
+		"editorIndentGuide.background": "#2B2D33",
+		"editorIndentGuide.activeBackground": "#3A3C43",
+		"editorError.foreground": "#DF281F",
+		"editorWarning.foreground": "#F57630",
+		"editorInfo.foreground": "#494D5A",
+		"editorHint.foreground": "#335FFF",
+		"editorUnnecessaryCode.opacity": "0.5",
+		"sideBar.background": "#202227",
+		"activityBar.background": "#202227",
+		"statusBar.background": "#202227",
+		"titleBar.activeBackground": "#202227",
+		"titleBar.inactiveBackground": "#202227"
+	},
+	"tokenColors": [
+		{
+			"scope": ["comment", "punctuation.definition.comment"],
+			"settings": {"foreground": "#6A6F81"}
+		},
+		{
+			"scope": ["keyword.control", "keyword.other", "storage.type", "storage.modifier"],
+			"settings": {"foreground": "#EB7973"}
+		},
+		{
+			"scope": "keyword.operator",
+			"settings": {"foreground": "#A29BFE"}
+		},
+		{
+			"scope": ["punctuation.separator", "punctuation.terminator", "punctuation.section", "punctuation.accessor"],
+			"settings": {"foreground": "#828694"}
+		},
+		{
+			"scope": ["string", "string.quoted", "string.template"],
+			"settings": {"foreground": "#8EE9B6"}
+		},
+		{
+			"scope": ["constant.numeric", "constant.language"],
+			"settings": {"foreground": "#F2BA2A"}
+		},
+		{
+			"scope": ["entity.name.function", "support.function"],
+			"settings": {"foreground": "#FAE4AA"}
+		},
+		{
+			"scope": "support.function.builtin.lua",
+			"settings": {"foreground": "#8FB4FF"}
+		},
+		{
+			"scope": "variable.other.property.lua",
+			"settings": {"foreground": "#70A0FF"}
+		},
+		{
+			"scope": ["variable.parameter", "variable.language.self"],
+			"settings": {"foreground": "#FF9F7A", "fontStyle": "italic"}
+		},
+		{
+			"scope": ["support.class.roblox", "entity.name.type.roblox"],
+			"settings": {"foreground": "#61DAFB", "fontStyle": "bold"}
+		},
+		{
+			"scope": "variable.other.roblox",
+			"settings": {"foreground": "#61DAFB"}
+		},
+		{
+			"scope": "support.function.roblox",
+			"settings": {"foreground": "#EB7973"}
+		},
+		{
+			"scope": ["invalid", "invalid.deprecated"],
+			"settings": {"foreground": "#DF281F"}
+		},
+		{
+			"scope": ["meta.toc-list.marker.todo", "comment.block.todo", "keyword.other.todo"],
+			"settings": {"foreground": "#F4FF78", "fontStyle": "bold"}
+		}
+	]
 }
